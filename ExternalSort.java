@@ -26,7 +26,6 @@ public class ExternalSort {
                     }
                 }
             }
-
             values = mergeSort(values, reverse, dataType);
             try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFileName))) {
                 for (Value readerAndValue : values) {
